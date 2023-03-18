@@ -1,0 +1,17 @@
+#navbar {
+    position: fixed;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  #mainHeading{
+    background-color: aqua;
+    font-style: italic;
+    border: 1px;
+    
+}
+#line{
+    border-radius: 1px;
+}
