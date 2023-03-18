@@ -1,17 +1,35 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: poppins;
+    color: black;
+    font-size: 18px;
+    padding:5%;
+}
+
 #navbar {
     position: fixed;
-  }
-  @media only screen and (max-width: 600px) {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+        background-color: lightblue;
     }
-  }
-  #mainHeading{
+}
+
+#mainHeading {
     background-color: aqua;
     font-style: italic;
     border: 1px;
-    
+
 }
-#line{
+
+#line {
     border-radius: 1px;
 }
